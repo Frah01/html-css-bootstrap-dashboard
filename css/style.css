@@ -8,6 +8,14 @@ header{
     height: 80px;
 }
 
+#mobile-logo{
+    width: 50px;
+}
+
+#desktop-logo {
+    display: none;
+}
+
 .nav-height {
     height: 80px;
 }
@@ -22,7 +30,6 @@ span {
 
 aside {
     width: 50px;
-    height: calc(100vh - 80px);
     background-color: rgba(5,30,52,255);
 }
 
@@ -53,6 +60,8 @@ th img {
     width: 30px;
     border-radius: 50%;
 }
+
+
 
 .content-color {
     background-color: orange;
@@ -87,6 +96,8 @@ th img {
     text-decoration: none;
     color: grey;
 }
+
+
 
 .my-font-bold {
     
@@ -129,5 +140,11 @@ th img {
     }
     .mobile-buttons {
         display: none;
+    }
+    #mobile-logo {
+        display: none;
+    }
+    #desktop-logo {
+        display: inline;
     }
 }
