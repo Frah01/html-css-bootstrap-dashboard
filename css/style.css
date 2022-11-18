@@ -49,6 +49,10 @@ aside {
     order: 3
 }
 
+th img {
+    width: 30px;
+    border-radius: 50%;
+}
 
 .content-color {
     background-color: orange;
@@ -72,6 +76,17 @@ aside {
     color: white;
 }
 
+.my-border-grey {
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.my-decoration-none {
+    text-decoration: none;
+    color: grey;
+}
 
 .my-font-bold {
     
@@ -91,7 +106,7 @@ aside {
         width: 130px;
     }
 
-    span {
+    aside span {
         display: inline;
     }
 
