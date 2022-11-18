@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: #fff;
+}
+
+.nav-height {
+    height: 80px;
+}
+
+aside {
+    width: 120px;
+    height: calc(100vh - 80px);
+    background-color: orange;
+}
+
+
+
+.top-bar {
+    background-color: blue;
+    height: 180px;
+}
+
+.main-body {
+    background-color: white;
+    height: 500px
+
+}
