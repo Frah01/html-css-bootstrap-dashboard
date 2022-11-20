@@ -9,6 +9,11 @@ header{
     height: 80px;
 }
 
+.my-overflow-main {
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
 #mobile-logo{
     width: 50px;
 }
