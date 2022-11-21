@@ -19,7 +19,7 @@
                             <div  class="d-flex w-100">
                                 <a class="navbar-brand" href="#"><img id="mobile-logo" src="./img/mobile-logo.png" alt=""><img id="desktop-logo" src="./img/logo.svg" alt=""></a>
                                 <form class="d-flex w-100 align-items-center" role="search">
-                                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                  <input class="form-control me-2" type="search" placeholder="Prova a cercare: lezioni di laravel" aria-label="Search">
                                 </form>
                             </div>
                          <div class="lista" >
@@ -34,7 +34,7 @@
                                   <li class="nav-item">
                                     <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></a>
                                   </li>
-                                  <li class="nav-item dropdown">
+                                  <li class="nav-item">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="fa-solid fa-bell text-warning"></i>
                                     </a>
@@ -63,15 +63,15 @@
                 <div class="row d-flex flex-column justify-content-between height-100" >
                     <div class="col" >
                         <div class="d-flex flex-column my-3" >
-                            <div class="my-2">
+                            <div class="my-2 p-1 my-hover-aside">
                                 <i class="fa-sharp fa-solid fa-house text-white p-1"></i>
                                 <span class="text-white" >Home</span>
                             </div>
-                            <div class="my-2">
+                            <div class="my-2 p-1 my-hover-aside">
                                 <i class="fa-solid fa-chart-simple text-white p-1"></i>
                                 <span class="text-white p-1" >Stats</span>
                             </div>
-                            <div class="my-2">
+                            <div class="my-2 p-1 my-hover-aside">
                                 <i class="fa-solid fa-signal text-white p-1"></i> 
                                 <span class="text-white" >Signals</span>
                             </div>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="col" >
                         <div class="d-flex flex-column justify-content-end align-items-center pb-3 h-100" >
-                            <div>
+                            <div class="my-hover-aside p-1" >
                                 <i class="fa-solid fa-gear text-white"></i>
                                 <span class="text-white" >Settings</span>
 
@@ -431,10 +431,12 @@
                             </div>
                             <div class="col-lg-4" >
                                 <div class="p-3" >
-                                    <div class="card">
-                                        <div class="card-header">
-                                          <h3>Todo</h3>
-                                        </div>
+                                  <div class="card">
+                                    <div class="card-header">
+                                      <h3>Todo</h3>
+                                    </div>
+                                    <div class="card-body">
+                                      <div class="card">
                                         <ul class="list-group list-group-flush">
                                           <li class="list-group-item">
                                             <div class="d-flex">
@@ -456,9 +458,13 @@
                                           </li>
                                         </ul>
                                       </div>
+                                    </div>
+                                  </div>
                                 </div>
                                 <div class="p-3" >
-                                    <div class="card object-contain">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <div class="card object-contain">
                                         <img id="stats-img" src="./img/stats.jpeg" class="card-img-top" alt="...">
                                         <div class="card-body">
                                           <h5 class="card-title">Utenti Attivi</h5>
@@ -473,6 +479,8 @@
                                           <a href="#" class="card-link">Visualizza report approfondito</a>
                                         </div>
                                       </div>
+                                    </div>
+                                  </div>
                                 </div>
                                
                             </div>

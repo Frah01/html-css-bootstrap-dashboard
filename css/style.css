@@ -52,10 +52,6 @@ aside {
 
 }
 
-.my-canvas-width {
-    --bs-offcanvas-width:100%
-
-}
 
 #my-order-1 {
     order: 1;
@@ -110,12 +106,20 @@ th img {
     color: grey;
 }
 
-
+.my-display {
+    display: none
+}
 
 .my-font-bold {
     
     font-size: 2rem;
     color: white;
+}
+
+.my-hover-aside:hover {
+    background-color: grey;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .desktop-buttons {
@@ -143,7 +147,10 @@ th img {
     #my-order-3 {
         order: 3
     }
-    
+    .campana {
+        display: inline-block;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -160,4 +167,6 @@ th img {
     #desktop-logo {
         display: inline;
     }
+
+
 }
