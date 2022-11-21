@@ -52,17 +52,6 @@ aside {
 
 }
 
-
-#my-order-1 {
-    order: 1;
-}
-#my-order-2 {
-    order: 2
-}
-#my-order-3 {
-    order: 3
-}
-
 th img {
     width: 30px;
     border-radius: 50%;
@@ -86,9 +75,11 @@ th img {
     background-color: white;
 
 }
-.my-offcanvas-width {
-    --bs-offcanvas-width: 100% !important ;
-   }
+
+
+#offcanvasRight{
+    width: 100%
+}
 
 .my-canvas-width {
     max-width: 100%;
@@ -162,8 +153,8 @@ th img {
     .campana {
         display: inline-block;
     }
-   .my-offcanvas-width {
-    max-width: 100%;
+   #offcanvasRight{
+    width: 100%;
    }
    
 }
@@ -182,9 +173,7 @@ th img {
     #desktop-logo {
         display: inline;
     }
-    .my-offcanvas-width {
-        --bs-offcanvas-width: 50% !important ;
-       }
+
     
 
 
