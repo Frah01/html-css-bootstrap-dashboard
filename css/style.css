@@ -76,14 +76,10 @@ th img {
 
 }
 
-
 #offcanvasRight{
     width: 100%
 }
 
-.my-canvas-width {
-    max-width: 100%;
-}
 
 .my-topbar-button {
     background-color: rgba(22,91,186,255);
@@ -153,10 +149,7 @@ th img {
     .campana {
         display: inline-block;
     }
-   #offcanvasRight{
-    width: 100%;
-   }
-   
+
 }
 
 @media screen and (min-width: 992px) {
@@ -174,7 +167,10 @@ th img {
         display: inline;
     }
 
-    
+    #offcanvasRight{
+        width: 50%;
+       }
+       
 
 
 }
