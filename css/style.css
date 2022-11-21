@@ -81,6 +81,13 @@ th img {
     background-color: white;
 
 }
+.my-offcanvas-width {
+    --bs-offcanvas-width: 100% !important ;
+   }
+
+.my-canvas-width {
+    max-width: 100%;
+}
 
 .my-topbar-button {
     background-color: rgba(22,91,186,255);
@@ -116,8 +123,8 @@ th img {
     color: white;
 }
 
-.my-hover-aside:hover {
-    background-color: grey;
+.my-hover-aside:hover, .my-tr-hover:hover {
+    background-color: rgb(187, 187, 187);
     cursor: pointer;
     transition: 0.5s;
 }
@@ -150,7 +157,10 @@ th img {
     .campana {
         display: inline-block;
     }
-
+   .my-offcanvas-width {
+    max-width: 100%;
+   }
+   
 }
 
 @media screen and (min-width: 992px) {
@@ -167,6 +177,10 @@ th img {
     #desktop-logo {
         display: inline;
     }
+    .my-offcanvas-width {
+        --bs-offcanvas-width: 50% !important ;
+       }
+    
 
 
 }
