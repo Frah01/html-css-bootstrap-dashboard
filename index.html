@@ -96,9 +96,9 @@
         <!-- INIZIO TOPBAR -->
                    <div class="top-bar" >
                     <div class="row row-cols-1 row-cols-md-3 g-0" >
-                        <div class="col col-md-6" >
+                        <div class="col col-md-6 order-2  order-md-0" >
                             <div class="p-3 mt-3"  >
-                                <label class="my-font-bold" id="my-order-2">Boolean</label>
+                                <label class="my-font-bold">Boolean</label>
                                 <a  class="my-topbar-button" href="#">Piano blaze</a>
                             </div>
                             <div class="mobile-buttons p-3" >
@@ -115,56 +115,107 @@
 
                             </div>
                         </div>
-                        <div class="col col-md-3" >
-                            <div class="p-3 mt-3" id="my-order-3" >
+                        <div class="col col-md-3 order-3 order-md-0" >
+                            <div class="p-3 mt-3" >
                                 <p class="text-white" >Studenti online negli ultimi 30 minuti</p>
                                 <h2 class="text-white" >125</h2>
                             </div>
                         </div>
-                        <div class="col col-md-3" id="my-order-1">
-                            <div class="p-3 mt-3 d-flex" >
-                                <p class="text-white mx-2" >Nuovo studente</p>
+                        <div class="col col-md-3 order-1 order-md-0">
+                            <div class="p-3 mt-3 d-flex align-items-center order-1" >
+                                <p class="text-white my-0 p-1" >Nuovo studente</p>
                                 <div>
-                                    <button class="my-canvas-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
-                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <button class="my-canvas-button mx-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                    <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
                                     <div class="offcanvas-body">
             <!-- CANVAS BODY -->
                                         <div>
-                                            <div class="input-group mb-3">
-                                                <span class="input-group-text" id="basic-addon1">@</span>
-                                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                          <div class="container" >
+                                            <div class="row" >
+                                              <div class="col-6" >
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control" placeholder="Nome" aria-label="name" aria-describedby="basic-addon1">
+                                                  </div>
                                               </div>
-                                              
-                                              <div class="input-group mb-3">
-                                                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                                <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                                  <div class="col-6" >
+                                                    <div class="input-group mb-3">
+                                                      <input type="text" class="form-control" placeholder="Cognome" aria-label="surname" aria-describedby="basic-addon2">
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                          </div>
+                                          <div class="container" >
+                                            <div class="row" >
+                                              <div class="col-6" >
+                                                <div class="input-group mb-3">
+                                                  <span class="input-group-text" id="basic-addon3">@</span>
+                                                  <input type="text" class="form-control w-25" id="basic-url" placeholder="e-mail" aria-describedby="basic-addon3">
+                                                </div>
                                               </div>
-                                              
-                                              <label for="basic-url" class="form-label">Your vanity URL</label>
-                                              <div class="input-group mb-3">
-                                                <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-                                                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                                              <div class="col-6" >
+                                                <div class="input-group mb-3" >
+                                                  <input type="text" class="form-control" placeholder="Password" aria-label="Amount (to the nearest dollar)">
+                                                </div>
                                               </div>
-                                              
-                                              <div class="input-group mb-3">
-                                                <span class="input-group-text">$</span>
-                                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                                                <span class="input-group-text">.00</span>
+                                          </div>
+                                          </div>
+                                          <div class="container" >
+                                            <div class="row" >
+                                              <div class="col-12" >
+                                                </div>
+                                                    <div class="input-group mb-3" >
+                                                      <input type="text" class="form-control " placeholder="Indirizzo" aria-label="indirizzo">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container" >
+                                              <div class="row" >
+                                                <div class="col-5" >
+                                                  <div class="input-group mb-3">
+                                                    <input type="text" class="form-control" placeholder="Citt&agrave;" aria-label="citt&agrave;">
+                                                  </div>
+                                                </div>
+                                                <div class="col-4" >
+                                                  <div class="input-group mb-3">
+                                                    <input type="text" class="form-control" placeholder="Stato" aria-label="stato">
+                                                  </div>
+                                                </div>
+                                                <div class="col-3" >
+                                                  <div class="input-group mb-3">
+                                                    <input type="text" class="form-control" placeholder="Cap" aria-label="cap">
+                                                  </div>
+                                                </div>
                                               </div>
-                                              
-                                              <div class="input-group mb-3">
-                                                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                                                <span class="input-group-text">@</span>
-                                                <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                                            </div>
+                                              <div class="container">
+                                                <div class="row" >
+                                                  <div class="col" >
+                                                    <div class="mb-3">
+                                                      <label for="formFile" class="form-label">Foto</label>
+                                                      <input class="form-control" type="file" id="formFile">
+                                                    </div>
+                                                  </div>
+                                                </div>
                                               </div>
-                                              
-                                              <div class="input-group">
-                                                <span class="input-group-text">With textarea</span>
-                                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                                              <div class="container">
+                                                <div class="row" >
+                                                  <div class="col" >
+                                                    <div>
+                                                      <form action="">
+                                                        <input type="checkbox">
+                                                        <label for="checkbox">Seleziona per proseguire</label>
+                                                        <div class="my-2" >
+                                                          <button type="submit" class="btn btn-primary">Salva</button>
+                                                          <button type="reset" class="btn btn-warning">Svuota</button>
+                                                        </div>
+                                                      </form>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                               </div>
                                         </div>
                                     </div>
@@ -177,7 +228,7 @@
                     <!-- INIZIO MAIN BODY -->
                    <div class="main-body overflow-auto" >
                         <div class="row row-cols-1 row-cols-lg-2 g-0" >
-                            <div class="col" >
+                            <div class="col-lg-8" >
                                 <div class="p-3" >
                                     <div class="card">
                                         <div class="card-header">
@@ -195,7 +246,7 @@
                                             </thead>
                                             <tbody>
                                               <tr>
-                                                <th scope="row" colspan="2"><img src="./img/class-avatar.jpg" alt="">Classe 75</th>
+                                                <th scope="row" colspan="2"><img src="./img/class-avatar.jpg" alt=""> Classe 75</th>
                                                 <td>15 Feb 2021</td>
                                                 <td>20&percnt;</td>
                                                 <td><span class="badge text-bg-success">Done</span></td>
@@ -378,7 +429,7 @@
                                       </div>
                                 </div>
                             </div>
-                            <div class="col" >
+                            <div class="col-lg-4" >
                                 <div class="p-3" >
                                     <div class="card">
                                         <div class="card-header">

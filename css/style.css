@@ -45,10 +45,15 @@ aside {
 
 .my-canvas-button {
     border: 1px solid white;
-    padding: 10px;
+    padding: 10px 15px;
     color: white;
     background-color: transparent;
     border-radius: 10px;
+
+}
+
+.my-canvas-width {
+    --bs-offcanvas-width:100%
 
 }
 
@@ -67,7 +72,9 @@ th img {
     border-radius: 50%;
 }
 
-
+#stats-img {
+    max-width: auto;
+}
 
 .content-color {
     background-color: orange;
