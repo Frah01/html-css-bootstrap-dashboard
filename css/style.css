@@ -72,6 +72,11 @@ th img {
     max-width: auto;
 }
 
+.my-list-style {
+    list-style-type: none;
+    padding: 0;
+}
+
 .content-color {
     background-color: orange;
     width: 100%;
